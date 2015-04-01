@@ -2,7 +2,7 @@
 // Enter your mapbox map id here to reference it for the base layer
 
 var mapId = 'epark15.a4cf32f3'; //<- this references the ugly green map that I made
-var token = 'pk.eyJ1 IjoiZXBhcmsxNSIsImEiOiJmNFcxTkFjIn0.uP4XrflHwiMCm-mW-JXyKQ'; //<- this is my token, use yours.
+var token = 'pk.eyJ1IjoiZXBhcmsxNSIsImEiOiJmNFcxTkFjIn0.uP4XrflHwiMCm-mW-JXyKQ'; //<- this is my token, use yours.
 
 //Create the map object with your mapId and token
 L.mapbox.accessToken = token;
