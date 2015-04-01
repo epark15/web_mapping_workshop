@@ -13,16 +13,16 @@ map.setView([39, -96], 4);
 
 var datafileToAdd = 'data/parks.geojson';
 
-var featurelayer = l.mapbox.featurelayer().loadUrl(datafileToAdd).addTo(map);
+var featurelayer = l.mapbox.featureLayer().loadUrl(datafileToAdd).addTo(map);
 
-featurelayer.on('ready',function(){
+featureLayer.on('ready',function(){
     this.setStyle({
       'color':'#ec008c',
       'fillColor':'#ec008c',
       'weight':4,
       'opacity':.7
     })
-    map.fitBounds(featurelayer.getBounds());
+    map.fitBounds(featureLayer.getBounds());
 })
 
   
