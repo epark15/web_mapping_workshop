@@ -11,9 +11,9 @@ var map = L.mapbox.map('map', mapId);
 //Set the view of the map to the whole US
 map.setView([39, -96], 4);
 
-var datafileToAdd = 'data/parks.geojson';
+var dataFileToAdd = 'data/parks.geojson';
 
-var featurelayer = l.mapbox.featureLayer().loadUrl(datafileToAdd).addTo(map);
+var featurelayer = l.mapbox.featureLayer().loadUrl(dataFileToAdd).addTo(map);
 
 featureLayer.on('ready',function(){
     this.setStyle({
