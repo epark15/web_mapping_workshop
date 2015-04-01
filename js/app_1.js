@@ -26,7 +26,6 @@ featureLayer.on('ready',function(){
 });
 
   
-  
 
 
 
