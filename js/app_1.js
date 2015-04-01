@@ -13,7 +13,7 @@ map.setView([39, -96], 4);
 
 var dataFileToAdd = 'data/parks.geojson';
 
-var featurelayer = l.mapbox.featureLayer().loadUrl(dataFileToAdd).addTo(map);
+var featureLayer = l.mapbox.featureLayer().loadUrl(dataFileToAdd).addTo(map);
 
 featureLayer.on('ready',function(){
     this.setStyle({
