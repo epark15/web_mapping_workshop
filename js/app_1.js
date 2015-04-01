@@ -22,7 +22,7 @@ featureLayer.on('ready',function(){
       'weight':4,
       'opacity':.7
     });
-    map.fitBou nds(featureLayer.getBounds());
+    map.fitBou nds(featureLayer.getB ounds());
 });
 
   
